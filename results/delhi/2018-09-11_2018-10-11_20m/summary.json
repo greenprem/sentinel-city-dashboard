@@ -1,0 +1,419 @@
+{
+  "city": {
+    "query": "Delhi, India",
+    "name": "Delhi (NCT), India",
+    "slug": "delhi",
+    "boundary_source": "DataMeet Municipal Spatial Data (Delhi boundary and wards); districts from datta07/INDIAN-SHAPEFILES",
+    "bbox": [
+      76.83877225000015,
+      28.4042521290001,
+      77.34747022900007,
+      28.883495792000076
+    ],
+    "area_km2": 1488.1
+  },
+  "period": {
+    "start": "2018-09-11",
+    "end": "2018-10-11"
+  },
+  "resolution_m": 20,
+  "crs": "EPSG:32643",
+  "imagery": {
+    "source": "AWS sentinel-cogs bucket (direct listing)",
+    "collection": "Sentinel-2 L2A (surface reflectance)",
+    "dates": [
+      {
+        "date": "2018-09-17",
+        "clear_fraction": 0.822,
+        "scenes": [
+          "S2B_43RFM_20180917_0_L2A",
+          "S2B_43RGM_20180917_0_L2A"
+        ]
+      },
+      {
+        "date": "2018-09-27",
+        "clear_fraction": 0.991,
+        "scenes": [
+          "S2B_43RFM_20180927_1_L2A",
+          "S2B_43RGM_20180927_1_L2A"
+        ]
+      },
+      {
+        "date": "2018-10-02",
+        "clear_fraction": 1.0,
+        "scenes": [
+          "S2A_43RFM_20181002_1_L2A",
+          "S2A_43RGM_20181002_1_L2A"
+        ]
+      },
+      {
+        "date": "2018-10-07",
+        "clear_fraction": 1.0,
+        "scenes": [
+          "S2B_43RFM_20181007_1_L2A",
+          "S2B_43RGM_20181007_1_L2A"
+        ]
+      }
+    ],
+    "candidate_dates": 13,
+    "latest_acquisition": "2018-10-10",
+    "clear_obs_mean": 3.81,
+    "aoi_coverage": 1.0
+  },
+  "landcover": {
+    "water": {
+      "label": "Water",
+      "color": "#2f6fdb",
+      "pixels": 40439,
+      "area_km2": 16.18,
+      "percent": 1.09
+    },
+    "dense_veg": {
+      "label": "Dense vegetation / tree cover",
+      "color": "#1f6b2c",
+      "pixels": 1368467,
+      "area_km2": 547.39,
+      "percent": 36.78
+    },
+    "moderate_veg": {
+      "label": "Moderate vegetation / crops & parks",
+      "color": "#5fae4e",
+      "pixels": 572941,
+      "area_km2": 229.18,
+      "percent": 15.4
+    },
+    "sparse_veg": {
+      "label": "Sparse vegetation / mixed urban green",
+      "color": "#b5d67a",
+      "pixels": 449631,
+      "area_km2": 179.85,
+      "percent": 12.09
+    },
+    "built": {
+      "label": "Built-up / concrete",
+      "color": "#c8423b",
+      "pixels": 915492,
+      "area_km2": 366.2,
+      "percent": 24.61
+    },
+    "bare": {
+      "label": "Bare soil / undeveloped land",
+      "color": "#d9a55b",
+      "pixels": 373244,
+      "area_km2": 149.3,
+      "percent": 10.03
+    }
+  },
+  "metrics": {
+    "green_cover_pct": 64.27,
+    "tree_cover_pct": 36.78,
+    "impervious_pct": 24.61,
+    "mean_ndvi": 0.3925,
+    "mean_ndbi": -0.0649,
+    "mean_ndmi": 0.0649,
+    "mean_bsi": -0.0152,
+    "valid_pixel_pct": 100.0
+  },
+  "water_quality": {
+    "pixels": 40439,
+    "ndti": 0.0047,
+    "ndci": 0.0483,
+    "label": "Moderately turbid, moderate algal signal"
+  },
+  "classification_rules": {
+    "water_mndwi": -0.05,
+    "water_ndvi_max": 0.1,
+    "water_dark_swir": 0.07,
+    "dense_ndvi": 0.5,
+    "moderate_ndvi": 0.35,
+    "sparse_ndvi": 0.22,
+    "bare_bsi": 0.09,
+    "bare_blue_red_max": 0.68,
+    "water_nir_max": 0.15,
+    "water_swir_max": 0.12
+  },
+  "generated_at": "2026-10-11T18:37:14+00:00",
+  "zone_sets": {
+    "wards": {
+      "label": "Localities (municipal wards)",
+      "count": 290,
+      "file": "zones_wards.geojson"
+    },
+    "districts": {
+      "label": "Districts",
+      "count": 11,
+      "file": "zones_districts.geojson"
+    },
+    "subdistricts": {
+      "label": "Sub-districts (Census 2011)",
+      "count": 27,
+      "file": "zones_subdistricts.geojson"
+    },
+    "grid": {
+      "label": "2 km grid",
+      "count": 408,
+      "file": "zones_grid.geojson"
+    }
+  },
+  "highlights": {
+    "set_label": "Localities",
+    "most_built": "Nehru Vihar",
+    "greenest": "Ndmc Charge 3",
+    "most_bare": "Khera"
+  },
+  "narrative": "Delhi (NCT): 64% of the land shows vegetation signal (tree cover 37%), 25% is built-up/concrete, 10% is bare or undeveloped soil and 1.1% is open water. Average vegetation vigour (NDVI 0.39) is moderate for this period. Open water reads as: moderately turbid, moderate algal signal (turbidity index +0.00, chlorophyll index +0.05). Most built-up localities: Nehru Vihar; greenest: Ndmc Charge 3; most bare land: Khera.",
+  "layers": {
+    "truecolor": {
+      "title": "Sentinel-2 true colour",
+      "file": "layer_truecolor.webp",
+      "kind": "image",
+      "bounds": [
+        [
+          28.39649979830697,
+          76.83029715615854
+        ],
+        [
+          28.891543011150194,
+          77.35827672153766
+        ]
+      ]
+    },
+    "landcover": {
+      "title": "Land cover",
+      "file": "layer_landcover.webp",
+      "kind": "classes",
+      "classes": [
+        {
+          "id": 1,
+          "key": "water",
+          "label": "Water",
+          "color": "#2f6fdb"
+        },
+        {
+          "id": 2,
+          "key": "dense_veg",
+          "label": "Dense vegetation / tree cover",
+          "color": "#1f6b2c"
+        },
+        {
+          "id": 3,
+          "key": "moderate_veg",
+          "label": "Moderate vegetation / crops & parks",
+          "color": "#5fae4e"
+        },
+        {
+          "id": 4,
+          "key": "sparse_veg",
+          "label": "Sparse vegetation / mixed urban green",
+          "color": "#b5d67a"
+        },
+        {
+          "id": 5,
+          "key": "built",
+          "label": "Built-up / concrete",
+          "color": "#c8423b"
+        },
+        {
+          "id": 6,
+          "key": "bare",
+          "label": "Bare soil / undeveloped land",
+          "color": "#d9a55b"
+        }
+      ],
+      "bounds": [
+        [
+          28.39649979830697,
+          76.83029715615854
+        ],
+        [
+          28.891543011150194,
+          77.35827672153766
+        ]
+      ]
+    },
+    "ndvi": {
+      "title": "Vegetation (NDVI)",
+      "file": "layer_ndvi.webp",
+      "kind": "ramp",
+      "min": -0.1,
+      "max": 0.8,
+      "stops": [
+        "#8a5a2b",
+        "#d8c99b",
+        "#9cc96b",
+        "#2f8f3a",
+        "#0f4d1d"
+      ],
+      "description": "Higher = denser, healthier vegetation",
+      "bounds": [
+        [
+          28.39649979830697,
+          76.83029715615854
+        ],
+        [
+          28.891543011150194,
+          77.35827672153766
+        ]
+      ]
+    },
+    "ndbi": {
+      "title": "Built-up index (NDBI)",
+      "file": "layer_ndbi.webp",
+      "kind": "ramp",
+      "min": -0.35,
+      "max": 0.2,
+      "stops": [
+        "#f3efe9",
+        "#e7b7a3",
+        "#d06a55",
+        "#9c2a22"
+      ],
+      "description": "Higher = more concrete / impervious",
+      "bounds": [
+        [
+          28.39649979830697,
+          76.83029715615854
+        ],
+        [
+          28.891543011150194,
+          77.35827672153766
+        ]
+      ]
+    },
+    "mndwi": {
+      "title": "Water index (MNDWI)",
+      "file": "layer_mndwi.webp",
+      "kind": "ramp",
+      "min": -0.6,
+      "max": 0.3,
+      "stops": [
+        "#f2efe6",
+        "#a9c7e3",
+        "#3f7fc7",
+        "#0b3c80"
+      ],
+      "description": "Higher = open water",
+      "bounds": [
+        [
+          28.39649979830697,
+          76.83029715615854
+        ],
+        [
+          28.891543011150194,
+          77.35827672153766
+        ]
+      ]
+    },
+    "ndmi": {
+      "title": "Moisture (NDMI)",
+      "file": "layer_ndmi.webp",
+      "kind": "ramp",
+      "min": -0.3,
+      "max": 0.4,
+      "stops": [
+        "#a5652a",
+        "#e8d9b5",
+        "#9cc4dd",
+        "#2a6aa8"
+      ],
+      "description": "Higher = wetter vegetation / surfaces",
+      "bounds": [
+        [
+          28.39649979830697,
+          76.83029715615854
+        ],
+        [
+          28.891543011150194,
+          77.35827672153766
+        ]
+      ]
+    },
+    "bsi": {
+      "title": "Bare soil index (BSI)",
+      "file": "layer_bsi.webp",
+      "kind": "ramp",
+      "min": -0.3,
+      "max": 0.25,
+      "stops": [
+        "#eef2ea",
+        "#d9c39b",
+        "#b8864a",
+        "#7a4a1d"
+      ],
+      "description": "Higher = more exposed soil",
+      "bounds": [
+        [
+          28.39649979830697,
+          76.83029715615854
+        ],
+        [
+          28.891543011150194,
+          77.35827672153766
+        ]
+      ]
+    },
+    "ndti": {
+      "title": "Water turbidity (NDTI)",
+      "file": "layer_ndti.webp",
+      "kind": "ramp",
+      "min": -0.25,
+      "max": 0.15,
+      "stops": [
+        "#1c5fa8",
+        "#6ea7c9",
+        "#c9b27a",
+        "#8a5a2b"
+      ],
+      "description": "On water only. Higher = muddier, more suspended sediment",
+      "bounds": [
+        [
+          28.39649979830697,
+          76.83029715615854
+        ],
+        [
+          28.891543011150194,
+          77.35827672153766
+        ]
+      ]
+    },
+    "ndci": {
+      "title": "Chlorophyll-a proxy (NDCI)",
+      "file": "layer_ndci.webp",
+      "kind": "ramp",
+      "min": -0.1,
+      "max": 0.35,
+      "stops": [
+        "#1c5fa8",
+        "#5fb3a8",
+        "#9ccf5a",
+        "#3f8f1c"
+      ],
+      "description": "On water only. Higher = more algae / eutrophication risk",
+      "bounds": [
+        [
+          28.39649979830697,
+          76.83029715615854
+        ],
+        [
+          28.891543011150194,
+          77.35827672153766
+        ]
+      ]
+    }
+  },
+  "rasters": {
+    "landcover": "landcover.tif",
+    "indices": "indices.tif",
+    "index_scale": 0.0001,
+    "index_bands": [
+      "ndvi",
+      "ndbi",
+      "mndwi",
+      "bsi",
+      "ndmi",
+      "ndti",
+      "ndci"
+    ]
+  },
+  "runtime_s": 177.3
+}

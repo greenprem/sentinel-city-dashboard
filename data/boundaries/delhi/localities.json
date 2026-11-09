@@ -1,0 +1,922 @@
+[
+ {
+  "name": "Ali",
+  "lat": 28.5161,
+  "lon": 77.3099,
+  "ward": "Madanpur Khadar",
+  "pincode": "110076",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Aliganj",
+  "lat": 28.5838,
+  "lon": 77.2218,
+  "ward": "Ndmc Charge 6",
+  "pincode": "110003",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Alipur",
+  "lat": 28.7986,
+  "lon": 77.1331,
+  "ward": "Alipur",
+  "pincode": "110036",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Anand Parbat",
+  "lat": 28.6431,
+  "lon": 77.2197,
+  "ward": "Ndmc Charge 2",
+  "pincode": "110005",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Auchandi",
+  "lat": 28.8203,
+  "lon": 76.9962,
+  "ward": "Bawana",
+  "pincode": "110039",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Babarpur",
+  "lat": 28.6875,
+  "lon": 77.2856,
+  "ward": "Babar Pur",
+  "pincode": "110032",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Badarpur",
+  "lat": 28.5025,
+  "lon": 77.3024,
+  "ward": "Badar Pur",
+  "pincode": "110044",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Bankner",
+  "lat": 28.8525,
+  "lon": 77.0787,
+  "ward": "Bankner",
+  "pincode": "110040",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Baprola",
+  "lat": 28.5724,
+  "lon": 77.0274,
+  "ward": "Nangli Sakravati",
+  "pincode": "110043",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Barwala",
+  "lat": 28.7613,
+  "lon": 77.0628,
+  "ward": "Begumpur",
+  "pincode": "110039",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Bawana",
+  "lat": 28.7982,
+  "lon": 77.0343,
+  "ward": "Bawana",
+  "pincode": "110039",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Bhorgarh",
+  "lat": 28.8293,
+  "lon": 77.0952,
+  "ward": "Narela",
+  "pincode": "110040",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Bijwasan",
+  "lat": 28.5346,
+  "lon": 77.0536,
+  "ward": "Bijwasan",
+  "pincode": "110061",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Burari",
+  "lat": 28.7557,
+  "lon": 77.1994,
+  "ward": "Burari",
+  "pincode": "110084",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Chattarpur",
+  "lat": 28.5724,
+  "lon": 77.0274,
+  "ward": "Nangli Sakravati",
+  "pincode": "110074",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Chilla",
+  "lat": 28.5957,
+  "lon": 77.3019,
+  "ward": "New Ashok Nagar",
+  "pincode": "110091",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Civil Lines",
+  "lat": 28.6804,
+  "lon": 77.2263,
+  "ward": "Kashmere Gate",
+  "pincode": "110054",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Connaught Place",
+  "lat": 28.6431,
+  "lon": 77.2197,
+  "ward": "Ndmc Charge 2",
+  "pincode": "110001",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Dabri",
+  "lat": 28.6099,
+  "lon": 77.0865,
+  "ward": "Dabri",
+  "pincode": "110045",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Darya Ganj",
+  "lat": 28.6453,
+  "lon": 77.2456,
+  "ward": "Daryaganj",
+  "pincode": "110002",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Daryapur Kalan",
+  "lat": 28.814,
+  "lon": 77.0111,
+  "ward": "Bawana",
+  "pincode": "110039",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Daulatpur",
+  "lat": 28.5466,
+  "lon": 76.9593,
+  "ward": "Chhawla",
+  "pincode": "110043",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Defence Colony",
+  "lat": 28.5714,
+  "lon": 77.2327,
+  "ward": "Andrewsganj",
+  "pincode": "110024",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Deoli",
+  "lat": 28.5025,
+  "lon": 77.2312,
+  "ward": "Khanpur",
+  "pincode": "110062",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Dera",
+  "lat": 28.5724,
+  "lon": 77.0274,
+  "ward": "Nangli Sakravati",
+  "pincode": "110074",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Dhansa",
+  "lat": 28.6553,
+  "lon": 77.0657,
+  "ward": "Quammruddin Nagar",
+  "pincode": "110073",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Dhaula Kuan",
+  "lat": 28.5724,
+  "lon": 77.0274,
+  "ward": "Nangli Sakravati",
+  "pincode": "110010",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Dindarpur",
+  "lat": 28.5981,
+  "lon": 76.9916,
+  "ward": "Nangli Sakravati",
+  "pincode": "110043",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Dwarka",
+  "lat": 28.5921,
+  "lon": 77.046,
+  "ward": "Kakraula",
+  "pincode": "",
+  "source": "manual (approximate centre)"
+ },
+ {
+  "name": "East Of Kailash",
+  "lat": 28.5589,
+  "lon": 77.2531,
+  "ward": "East Of Kailash",
+  "pincode": "110065",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Geeta Colony",
+  "lat": 28.6507,
+  "lon": 77.2764,
+  "ward": "Geeta Colony",
+  "pincode": "110031",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Gheora",
+  "lat": 28.6941,
+  "lon": 77.0016,
+  "ward": "Mundaka",
+  "pincode": "110081",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Ghoga",
+  "lat": 28.8311,
+  "lon": 77.05,
+  "ward": "Bankner",
+  "pincode": "110039",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Gopal Nagar",
+  "lat": 28.6109,
+  "lon": 77.214,
+  "ward": "Ndmc Charge 5",
+  "pincode": "110043",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Hauz Khas",
+  "lat": 28.5531,
+  "lon": 77.1916,
+  "ward": "Safdarjang Enclave",
+  "pincode": "110016",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Hazrat Nizamuddin",
+  "lat": 28.5878,
+  "lon": 77.2541,
+  "ward": "Nizamuddin",
+  "pincode": "110013",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Hiranki",
+  "lat": 28.7991,
+  "lon": 77.182,
+  "ward": "Bakhtawar Pur",
+  "pincode": "110036",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Hirankudna",
+  "lat": 28.6715,
+  "lon": 76.9984,
+  "ward": "Mundaka",
+  "pincode": "110041",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Holambi Kalan",
+  "lat": 28.8044,
+  "lon": 77.0969,
+  "ward": "Alipur",
+  "pincode": "110082",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Jafarpur",
+  "lat": 28.59,
+  "lon": 76.9205,
+  "ward": "Khera",
+  "pincode": "110073",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Jagatpur",
+  "lat": 28.7414,
+  "lon": 77.2199,
+  "ward": "Jharoda",
+  "pincode": "110084",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Janakpuri",
+  "lat": 28.6219,
+  "lon": 77.0878,
+  "ward": "Janak Puri West",
+  "pincode": "",
+  "source": "manual (approximate centre)"
+ },
+ {
+  "name": "Jaunti",
+  "lat": 28.7502,
+  "lon": 76.9699,
+  "ward": "Karala",
+  "pincode": "110081",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Jharoda Kalan",
+  "lat": 28.6526,
+  "lon": 76.9521,
+  "ward": "Dichaon Kalan",
+  "pincode": "110072",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Kadipur",
+  "lat": 28.774,
+  "lon": 77.1631,
+  "ward": "Bhalaswa Jahagir Pur",
+  "pincode": "110036",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Kailash Colony",
+  "lat": 28.5589,
+  "lon": 77.2531,
+  "ward": "East Of Kailash",
+  "pincode": "110048",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Kair",
+  "lat": 28.6244,
+  "lon": 76.9176,
+  "ward": "Khera",
+  "pincode": "110043",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Kakrola",
+  "lat": 28.6081,
+  "lon": 77.0193,
+  "ward": "Kakraula",
+  "pincode": "110078",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Kalyanpuri",
+  "lat": 28.6142,
+  "lon": 77.3162,
+  "ward": "Kalyan Puri",
+  "pincode": "110091",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Karala",
+  "lat": 28.7355,
+  "lon": 77.0352,
+  "ward": "Karala",
+  "pincode": "110081",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Karol Bagh",
+  "lat": 28.6514,
+  "lon": 77.1907,
+  "ward": "Karol Bagh",
+  "pincode": "110005",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Khaira",
+  "lat": 28.5942,
+  "lon": 76.9701,
+  "ward": "Roshanpura",
+  "pincode": "110043",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Khampur",
+  "lat": 28.8243,
+  "lon": 77.1342,
+  "ward": "Bakhtawar Pur",
+  "pincode": "110036",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Khanpur",
+  "lat": 28.5136,
+  "lon": 77.2275,
+  "ward": "Khanpur",
+  "pincode": "110062",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Khera Kalan",
+  "lat": 28.7745,
+  "lon": 77.1172,
+  "ward": "Alipur",
+  "pincode": "110082",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Khera Khurd",
+  "lat": 28.7755,
+  "lon": 77.0997,
+  "ward": "Alipur",
+  "pincode": "110082",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Lado Sarai",
+  "lat": 28.5724,
+  "lon": 77.0274,
+  "ward": "Nangli Sakravati",
+  "pincode": "110030",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Lajpat Nagar",
+  "lat": 28.5733,
+  "lon": 77.2402,
+  "ward": "Andrewsganj",
+  "pincode": "110024",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Lampur",
+  "lat": 28.8509,
+  "lon": 77.0659,
+  "ward": "Bankner",
+  "pincode": "110040",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Madanpur Khadar",
+  "lat": 28.5339,
+  "lon": 77.3025,
+  "ward": "Sarita Vihar",
+  "pincode": "110076",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Mahipalpur",
+  "lat": 28.5437,
+  "lon": 77.1282,
+  "ward": "Mahipalpur",
+  "pincode": "110037",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Maidan Garhi",
+  "lat": 28.5724,
+  "lon": 77.0274,
+  "ward": "Nangli Sakravati",
+  "pincode": "110068",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Malka Ganj",
+  "lat": 28.6764,
+  "lon": 77.2074,
+  "ward": "Malkaganj",
+  "pincode": "110007",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Masjid Moth",
+  "lat": 28.5638,
+  "lon": 77.2236,
+  "ward": "Andrewsganj",
+  "pincode": "110048",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Maujpur",
+  "lat": 28.6292,
+  "lon": 77.298,
+  "ward": "Mandawali",
+  "pincode": "110053",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Mehrauli",
+  "lat": 28.52,
+  "lon": 77.1803,
+  "ward": "Mehrauli",
+  "pincode": "110030",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Mitraon",
+  "lat": 28.6062,
+  "lon": 76.946,
+  "ward": "Khera",
+  "pincode": "110043",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Molarband",
+  "lat": 28.5029,
+  "lon": 77.3144,
+  "ward": "Molarband",
+  "pincode": "110044",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Moti Bagh",
+  "lat": 28.5818,
+  "lon": 77.1793,
+  "ward": "Ndmc Charge 9",
+  "pincode": "110021",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Mundka",
+  "lat": 28.6801,
+  "lon": 77.0298,
+  "ward": "Mundaka",
+  "pincode": "110041",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Munirka",
+  "lat": 28.5553,
+  "lon": 77.1743,
+  "ward": "Munirka",
+  "pincode": "110067",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Najafgarh",
+  "lat": 28.6092,
+  "lon": 76.9798,
+  "ward": "Najafgarh",
+  "pincode": "110043",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Nangal Dewat",
+  "lat": 28.5522,
+  "lon": 77.0984,
+  "ward": "Kapashera",
+  "pincode": "110037",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Nangal Raya",
+  "lat": 28.6093,
+  "lon": 77.1118,
+  "ward": "Nangal Raya",
+  "pincode": "110046",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Nangloi",
+  "lat": 28.6796,
+  "lon": 77.068,
+  "ward": "Nangloi East",
+  "pincode": "110041",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Narela",
+  "lat": 28.8527,
+  "lon": 77.0929,
+  "ward": "Narela",
+  "pincode": "110040",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Nasirpur",
+  "lat": 28.5971,
+  "lon": 77.0923,
+  "ward": "Manglapuri",
+  "pincode": "110045",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "New Friends Colony",
+  "lat": 28.5672,
+  "lon": 77.2725,
+  "ward": "Okhla",
+  "pincode": "110025",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Nilwal",
+  "lat": 28.6673,
+  "lon": 76.9793,
+  "ward": "Mundaka",
+  "pincode": "110041",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Nirankari Colony",
+  "lat": 28.7121,
+  "lon": 77.206,
+  "ward": "Mukherjee Nagar",
+  "pincode": "110009",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Nizampur",
+  "lat": 28.7178,
+  "lon": 76.9597,
+  "ward": "Mundaka",
+  "pincode": "110081",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Okhla Industrial Estate",
+  "lat": 28.5345,
+  "lon": 77.2779,
+  "ward": "Harkesh Nagar",
+  "pincode": "110020",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Pahar Ganj",
+  "lat": 28.6417,
+  "lon": 77.2132,
+  "ward": "Pahar Ganj",
+  "pincode": "110055",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Palla",
+  "lat": 28.842,
+  "lon": 77.187,
+  "ward": "Bakhtawar Pur",
+  "pincode": "110036",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Patel Nagar East",
+  "lat": 28.6431,
+  "lon": 77.2197,
+  "ward": "Ndmc Charge 2",
+  "pincode": "110008",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Patel Nagar South",
+  "lat": 28.6431,
+  "lon": 77.2197,
+  "ward": "Ndmc Charge 2",
+  "pincode": "110008",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Patparganj",
+  "lat": 28.609,
+  "lon": 77.2953,
+  "ward": "Mayur Vihar Phase-I",
+  "pincode": "110091",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Pitampura",
+  "lat": 28.7034,
+  "lon": 77.1319,
+  "ward": "Kohat Enclave",
+  "pincode": "",
+  "source": "manual (approximate centre)"
+ },
+ {
+  "name": "Punjab Khor",
+  "lat": 28.7759,
+  "lon": 76.9649,
+  "ward": "Begumpur",
+  "pincode": "110081",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Punjabi Bagh",
+  "lat": 28.6709,
+  "lon": 77.141,
+  "ward": "Moti Nagar",
+  "pincode": "110026",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Rajgarh Colony",
+  "lat": 28.659,
+  "lon": 77.2739,
+  "ward": "Krishna  Nagar",
+  "pincode": "110031",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Rampura",
+  "lat": 28.6772,
+  "lon": 77.1573,
+  "ward": "Tri Nagar",
+  "pincode": "110035",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Ranhola",
+  "lat": 28.6592,
+  "lon": 77.0382,
+  "ward": "Kunwar Singh Nagar",
+  "pincode": "110041",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Rani Khera",
+  "lat": 28.706,
+  "lon": 77.0258,
+  "ward": "Mundaka",
+  "pincode": "110081",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Raota",
+  "lat": 28.5232,
+  "lon": 76.9019,
+  "ward": "Chhawla",
+  "pincode": "110073",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Rithala",
+  "lat": 28.7201,
+  "lon": 77.1027,
+  "ward": "Rithala",
+  "pincode": "110085",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Rohini",
+  "lat": 28.736,
+  "lon": 77.113,
+  "ward": "Rohini",
+  "pincode": "",
+  "source": "manual (approximate centre)"
+ },
+ {
+  "name": "Safdarjung Enclave",
+  "lat": 28.565,
+  "lon": 77.1972,
+  "ward": "Safdarjang Enclave",
+  "pincode": "110029",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Sagarpur",
+  "lat": 28.5921,
+  "lon": 77.1056,
+  "ward": "Delhi Cantt Charge 7",
+  "pincode": "110046",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Saket",
+  "lat": 28.5189,
+  "lon": 77.2131,
+  "ward": "Ladosarai",
+  "pincode": "110017",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Sanoth",
+  "lat": 28.8138,
+  "lon": 77.0739,
+  "ward": "Alipur",
+  "pincode": "110040",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Seelampur",
+  "lat": 28.6708,
+  "lon": 77.2721,
+  "ward": "Raghubar Pura",
+  "pincode": "110053",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Shahdara",
+  "lat": 28.6292,
+  "lon": 77.298,
+  "ward": "Mandawali",
+  "pincode": "110032",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Shakarpur",
+  "lat": 28.6266,
+  "lon": 77.2794,
+  "ward": "Pandav Nagar",
+  "pincode": "110092",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Shalamar",
+  "lat": 28.7219,
+  "lon": 77.159,
+  "ward": "Shalimar Bagh North",
+  "pincode": "110088",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Singhu",
+  "lat": 28.8512,
+  "lon": 77.1311,
+  "ward": "Narela",
+  "pincode": "110040",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Siraspur",
+  "lat": 28.7581,
+  "lon": 77.1309,
+  "ward": "Libas Pur",
+  "pincode": "110042",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Sriniwaspuri",
+  "lat": 28.565,
+  "lon": 77.2574,
+  "ward": "Sri Niwaspuri",
+  "pincode": "110065",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Tajpur Kalan",
+  "lat": 28.8381,
+  "lon": 77.17,
+  "ward": "Bakhtawar Pur",
+  "pincode": "110036",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Tikri Kalan",
+  "lat": 28.6836,
+  "lon": 76.9701,
+  "ward": "Mundaka",
+  "pincode": "110041",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Tikri Khurd",
+  "lat": 28.8354,
+  "lon": 77.1195,
+  "ward": "Bakhtawar Pur",
+  "pincode": "110040",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Tilak Nagar",
+  "lat": 28.6396,
+  "lon": 77.0884,
+  "ward": "Tilak Nagar",
+  "pincode": "110018",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Timarpur",
+  "lat": 28.7038,
+  "lon": 77.2227,
+  "ward": "Timar Pur",
+  "pincode": "110054",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Vasant Kunj",
+  "lat": 28.5439,
+  "lon": 77.1523,
+  "ward": "Delhi Cantt Charge 4",
+  "pincode": "110070",
+  "source": "GeoNames postal codes"
+ },
+ {
+  "name": "Yamuna Vihar",
+  "lat": 28.6292,
+  "lon": 77.298,
+  "ward": "Mandawali",
+  "pincode": "110053",
+  "source": "GeoNames postal codes"
+ }
+]

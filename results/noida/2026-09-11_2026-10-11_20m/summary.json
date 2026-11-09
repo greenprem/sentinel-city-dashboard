@@ -1,0 +1,387 @@
+{
+  "city": {
+    "query": "Noida",
+    "name": "Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, India",
+    "slug": "noida",
+    "boundary_source": "OpenStreetMap Nominatim",
+    "bbox": [
+      77.2928863,
+      28.4006672,
+      77.5065172,
+      28.6354703
+    ],
+    "area_km2": 210.9
+  },
+  "period": {
+    "start": "2026-09-11",
+    "end": "2026-10-11"
+  },
+  "resolution_m": 20,
+  "crs": "EPSG:32643",
+  "imagery": {
+    "source": "Earth Search STAC API (Element84 / AWS)",
+    "collection": "Sentinel-2 L2A (surface reflectance)",
+    "dates": [
+      {
+        "date": "2026-09-30",
+        "clear_fraction": 1.0,
+        "scenes": [
+          "S2C_43RGM_20260930_0_L2A"
+        ]
+      },
+      {
+        "date": "2026-10-02",
+        "clear_fraction": 1.0,
+        "scenes": [
+          "S2A_43RGM_20261002_1_L2A"
+        ]
+      },
+      {
+        "date": "2026-10-05",
+        "clear_fraction": 1.0,
+        "scenes": [
+          "S2B_43RGM_20261005_0_L2A"
+        ]
+      }
+    ],
+    "candidate_dates": 6,
+    "latest_acquisition": "2026-10-10",
+    "clear_obs_mean": 3.0,
+    "aoi_coverage": 1.0
+  },
+  "landcover": {
+    "water": {
+      "label": "Water",
+      "color": "#2f6fdb",
+      "pixels": 8366,
+      "area_km2": 3.35,
+      "percent": 1.59
+    },
+    "dense_veg": {
+      "label": "Dense vegetation / tree cover",
+      "color": "#1f6b2c",
+      "pixels": 158831,
+      "area_km2": 63.53,
+      "percent": 30.13
+    },
+    "moderate_veg": {
+      "label": "Moderate vegetation / crops & parks",
+      "color": "#5fae4e",
+      "pixels": 92898,
+      "area_km2": 37.16,
+      "percent": 17.62
+    },
+    "sparse_veg": {
+      "label": "Sparse vegetation / mixed urban green",
+      "color": "#b5d67a",
+      "pixels": 75519,
+      "area_km2": 30.21,
+      "percent": 14.32
+    },
+    "built": {
+      "label": "Built-up / concrete",
+      "color": "#c8423b",
+      "pixels": 144247,
+      "area_km2": 57.7,
+      "percent": 27.36
+    },
+    "bare": {
+      "label": "Bare soil / undeveloped land",
+      "color": "#d9a55b",
+      "pixels": 47370,
+      "area_km2": 18.95,
+      "percent": 8.98
+    }
+  },
+  "metrics": {
+    "green_cover_pct": 62.07,
+    "tree_cover_pct": 30.13,
+    "impervious_pct": 27.36,
+    "mean_ndvi": 0.3607,
+    "mean_ndbi": -0.0486,
+    "mean_ndmi": 0.0486,
+    "mean_bsi": 0.0046,
+    "valid_pixel_pct": 100.0
+  },
+  "water_quality": {
+    "pixels": 8366,
+    "ndti": -0.0234,
+    "ndci": 0.0898,
+    "label": "Moderately turbid, moderate algal signal"
+  },
+  "classification_rules": {
+    "water_mndwi": -0.05,
+    "water_ndvi_max": 0.1,
+    "water_dark_swir": 0.07,
+    "dense_ndvi": 0.5,
+    "moderate_ndvi": 0.35,
+    "sparse_ndvi": 0.22,
+    "bare_bsi": 0.09,
+    "bare_blue_red_max": 0.68,
+    "water_nir_max": 0.15,
+    "water_swir_max": 0.12
+  },
+  "generated_at": "2026-10-11T19:26:43+00:00",
+  "zone_sets": {
+    "grid": {
+      "label": "2 km grid",
+      "count": 65,
+      "file": "zones_grid.geojson"
+    }
+  },
+  "narrative": "Noida: 62% of the land shows vegetation signal (tree cover 30%), 27% is built-up/concrete, 9% is bare or undeveloped soil and 1.6% is open water. Average vegetation vigour (NDVI 0.36) is moderate for this period. Open water reads as: moderately turbid, moderate algal signal (turbidity index -0.02, chlorophyll index +0.09).",
+  "layers": {
+    "truecolor": {
+      "title": "Sentinel-2 true colour",
+      "file": "layer_truecolor.webp",
+      "kind": "image",
+      "bounds": [
+        [
+          28.39681446186891,
+          77.28762097768295
+        ],
+        [
+          28.63935203578054,
+          77.51221513197997
+        ]
+      ]
+    },
+    "landcover": {
+      "title": "Land cover",
+      "file": "layer_landcover.webp",
+      "kind": "classes",
+      "classes": [
+        {
+          "id": 1,
+          "key": "water",
+          "label": "Water",
+          "color": "#2f6fdb"
+        },
+        {
+          "id": 2,
+          "key": "dense_veg",
+          "label": "Dense vegetation / tree cover",
+          "color": "#1f6b2c"
+        },
+        {
+          "id": 3,
+          "key": "moderate_veg",
+          "label": "Moderate vegetation / crops & parks",
+          "color": "#5fae4e"
+        },
+        {
+          "id": 4,
+          "key": "sparse_veg",
+          "label": "Sparse vegetation / mixed urban green",
+          "color": "#b5d67a"
+        },
+        {
+          "id": 5,
+          "key": "built",
+          "label": "Built-up / concrete",
+          "color": "#c8423b"
+        },
+        {
+          "id": 6,
+          "key": "bare",
+          "label": "Bare soil / undeveloped land",
+          "color": "#d9a55b"
+        }
+      ],
+      "bounds": [
+        [
+          28.39681446186891,
+          77.28762097768295
+        ],
+        [
+          28.63935203578054,
+          77.51221513197997
+        ]
+      ]
+    },
+    "ndvi": {
+      "title": "Vegetation (NDVI)",
+      "file": "layer_ndvi.webp",
+      "kind": "ramp",
+      "min": -0.1,
+      "max": 0.8,
+      "stops": [
+        "#8a5a2b",
+        "#d8c99b",
+        "#9cc96b",
+        "#2f8f3a",
+        "#0f4d1d"
+      ],
+      "description": "Higher = denser, healthier vegetation",
+      "bounds": [
+        [
+          28.39681446186891,
+          77.28762097768295
+        ],
+        [
+          28.63935203578054,
+          77.51221513197997
+        ]
+      ]
+    },
+    "ndbi": {
+      "title": "Built-up index (NDBI)",
+      "file": "layer_ndbi.webp",
+      "kind": "ramp",
+      "min": -0.35,
+      "max": 0.2,
+      "stops": [
+        "#f3efe9",
+        "#e7b7a3",
+        "#d06a55",
+        "#9c2a22"
+      ],
+      "description": "Higher = more concrete / impervious",
+      "bounds": [
+        [
+          28.39681446186891,
+          77.28762097768295
+        ],
+        [
+          28.63935203578054,
+          77.51221513197997
+        ]
+      ]
+    },
+    "mndwi": {
+      "title": "Water index (MNDWI)",
+      "file": "layer_mndwi.webp",
+      "kind": "ramp",
+      "min": -0.6,
+      "max": 0.3,
+      "stops": [
+        "#f2efe6",
+        "#a9c7e3",
+        "#3f7fc7",
+        "#0b3c80"
+      ],
+      "description": "Higher = open water",
+      "bounds": [
+        [
+          28.39681446186891,
+          77.28762097768295
+        ],
+        [
+          28.63935203578054,
+          77.51221513197997
+        ]
+      ]
+    },
+    "ndmi": {
+      "title": "Moisture (NDMI)",
+      "file": "layer_ndmi.webp",
+      "kind": "ramp",
+      "min": -0.3,
+      "max": 0.4,
+      "stops": [
+        "#a5652a",
+        "#e8d9b5",
+        "#9cc4dd",
+        "#2a6aa8"
+      ],
+      "description": "Higher = wetter vegetation / surfaces",
+      "bounds": [
+        [
+          28.39681446186891,
+          77.28762097768295
+        ],
+        [
+          28.63935203578054,
+          77.51221513197997
+        ]
+      ]
+    },
+    "bsi": {
+      "title": "Bare soil index (BSI)",
+      "file": "layer_bsi.webp",
+      "kind": "ramp",
+      "min": -0.3,
+      "max": 0.25,
+      "stops": [
+        "#eef2ea",
+        "#d9c39b",
+        "#b8864a",
+        "#7a4a1d"
+      ],
+      "description": "Higher = more exposed soil",
+      "bounds": [
+        [
+          28.39681446186891,
+          77.28762097768295
+        ],
+        [
+          28.63935203578054,
+          77.51221513197997
+        ]
+      ]
+    },
+    "ndti": {
+      "title": "Water turbidity (NDTI)",
+      "file": "layer_ndti.webp",
+      "kind": "ramp",
+      "min": -0.25,
+      "max": 0.15,
+      "stops": [
+        "#1c5fa8",
+        "#6ea7c9",
+        "#c9b27a",
+        "#8a5a2b"
+      ],
+      "description": "On water only. Higher = muddier, more suspended sediment",
+      "bounds": [
+        [
+          28.39681446186891,
+          77.28762097768295
+        ],
+        [
+          28.63935203578054,
+          77.51221513197997
+        ]
+      ]
+    },
+    "ndci": {
+      "title": "Chlorophyll-a proxy (NDCI)",
+      "file": "layer_ndci.webp",
+      "kind": "ramp",
+      "min": -0.1,
+      "max": 0.35,
+      "stops": [
+        "#1c5fa8",
+        "#5fb3a8",
+        "#9ccf5a",
+        "#3f8f1c"
+      ],
+      "description": "On water only. Higher = more algae / eutrophication risk",
+      "bounds": [
+        [
+          28.39681446186891,
+          77.28762097768295
+        ],
+        [
+          28.63935203578054,
+          77.51221513197997
+        ]
+      ]
+    }
+  },
+  "rasters": {
+    "landcover": "landcover.tif",
+    "indices": "indices.tif",
+    "index_scale": 0.0001,
+    "index_bands": [
+      "ndvi",
+      "ndbi",
+      "mndwi",
+      "bsi",
+      "ndmi",
+      "ndti",
+      "ndci"
+    ]
+  },
+  "runtime_s": 769.5
+}

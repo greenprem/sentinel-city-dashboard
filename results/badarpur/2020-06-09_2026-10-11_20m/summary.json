@@ -1,0 +1,408 @@
+{
+  "city": {
+    "query": "badarpur",
+    "name": "Badarpur, Karimganj, Assam, 788806, India",
+    "slug": "badarpur",
+    "boundary_source": "OpenStreetMap Nominatim",
+    "bbox": [
+      92.4207687,
+      24.7602753,
+      92.5859928,
+      24.8805968
+    ],
+    "area_km2": 132.4
+  },
+  "period": {
+    "start": "2020-06-09",
+    "end": "2026-10-11"
+  },
+  "resolution_m": 20,
+  "crs": "EPSG:32646",
+  "imagery": {
+    "source": "Earth Search STAC API (Element84 / AWS)",
+    "collection": "Sentinel-2 L2A (surface reflectance)",
+    "dates": [
+      {
+        "date": "2021-01-01",
+        "clear_fraction": 0.943,
+        "scenes": [
+          "S2A_46RDN_20210101_1_L2A"
+        ]
+      },
+      {
+        "date": "2021-02-05",
+        "clear_fraction": 0.924,
+        "scenes": [
+          "S2B_46RDN_20210205_1_L2A"
+        ]
+      },
+      {
+        "date": "2022-11-27",
+        "clear_fraction": 0.913,
+        "scenes": [
+          "S2B_46RDN_20221127_0_L2A"
+        ]
+      },
+      {
+        "date": "2023-04-16",
+        "clear_fraction": 0.947,
+        "scenes": [
+          "S2B_46RDN_20230416_0_L2A"
+        ]
+      },
+      {
+        "date": "2024-02-10",
+        "clear_fraction": 0.95,
+        "scenes": [
+          "S2B_46RDN_20240210_0_L2A"
+        ]
+      },
+      {
+        "date": "2024-12-16",
+        "clear_fraction": 0.944,
+        "scenes": [
+          "S2B_46RDN_20241216_0_L2A"
+        ]
+      }
+    ],
+    "candidate_dates": 512,
+    "latest_acquisition": "2026-10-11",
+    "clear_obs_mean": 5.62,
+    "aoi_coverage": 0.9501
+  },
+  "landcover": {
+    "water": {
+      "label": "Water",
+      "color": "#2f6fdb",
+      "pixels": 12158,
+      "area_km2": 4.86,
+      "percent": 3.87
+    },
+    "dense_veg": {
+      "label": "Dense vegetation / tree cover",
+      "color": "#1f6b2c",
+      "pixels": 151981,
+      "area_km2": 60.79,
+      "percent": 48.33
+    },
+    "moderate_veg": {
+      "label": "Moderate vegetation / crops & parks",
+      "color": "#5fae4e",
+      "pixels": 71307,
+      "area_km2": 28.52,
+      "percent": 22.67
+    },
+    "sparse_veg": {
+      "label": "Sparse vegetation / mixed urban green",
+      "color": "#b5d67a",
+      "pixels": 20400,
+      "area_km2": 8.16,
+      "percent": 6.49
+    },
+    "built": {
+      "label": "Built-up / concrete",
+      "color": "#c8423b",
+      "pixels": 11686,
+      "area_km2": 4.67,
+      "percent": 3.72
+    },
+    "bare": {
+      "label": "Bare soil / undeveloped land",
+      "color": "#d9a55b",
+      "pixels": 46963,
+      "area_km2": 18.79,
+      "percent": 14.93
+    }
+  },
+  "metrics": {
+    "green_cover_pct": 77.49,
+    "tree_cover_pct": 48.33,
+    "impervious_pct": 3.72,
+    "mean_ndvi": 0.5112,
+    "mean_ndbi": -0.096,
+    "mean_ndmi": 0.096,
+    "mean_bsi": -0.0411,
+    "valid_pixel_pct": 95.01
+  },
+  "water_quality": {
+    "pixels": 12158,
+    "ndti": -0.1033,
+    "ndci": 0.1109,
+    "label": "Clear, moderate algal signal"
+  },
+  "classification_rules": {
+    "water_mndwi": -0.05,
+    "water_ndvi_max": 0.1,
+    "water_dark_swir": 0.07,
+    "dense_ndvi": 0.5,
+    "moderate_ndvi": 0.35,
+    "sparse_ndvi": 0.22,
+    "bare_bsi": 0.09,
+    "bare_blue_red_max": 0.68,
+    "water_nir_max": 0.15,
+    "water_swir_max": 0.12
+  },
+  "generated_at": "2026-10-11T18:11:27+00:00",
+  "zone_sets": {
+    "grid": {
+      "label": "2 km grid",
+      "count": 40,
+      "file": "zones_grid.geojson"
+    }
+  },
+  "narrative": "Badarpur: 77% of the land shows vegetation signal (tree cover 48%), 4% is built-up/concrete, 15% is bare or undeveloped soil and 3.9% is open water. Average vegetation vigour (NDVI 0.51) is healthy for this period. Open water reads as: clear, moderate algal signal (turbidity index -0.10, chlorophyll index +0.11).",
+  "layers": {
+    "truecolor": {
+      "title": "Sentinel-2 true colour",
+      "file": "layer_truecolor.png",
+      "kind": "image",
+      "bounds": [
+        [
+          24.7597229478914,
+          92.420046344457
+        ],
+        [
+          24.881228801713732,
+          92.5866425767416
+        ]
+      ]
+    },
+    "landcover": {
+      "title": "Land cover",
+      "file": "layer_landcover.png",
+      "kind": "classes",
+      "classes": [
+        {
+          "id": 1,
+          "key": "water",
+          "label": "Water",
+          "color": "#2f6fdb"
+        },
+        {
+          "id": 2,
+          "key": "dense_veg",
+          "label": "Dense vegetation / tree cover",
+          "color": "#1f6b2c"
+        },
+        {
+          "id": 3,
+          "key": "moderate_veg",
+          "label": "Moderate vegetation / crops & parks",
+          "color": "#5fae4e"
+        },
+        {
+          "id": 4,
+          "key": "sparse_veg",
+          "label": "Sparse vegetation / mixed urban green",
+          "color": "#b5d67a"
+        },
+        {
+          "id": 5,
+          "key": "built",
+          "label": "Built-up / concrete",
+          "color": "#c8423b"
+        },
+        {
+          "id": 6,
+          "key": "bare",
+          "label": "Bare soil / undeveloped land",
+          "color": "#d9a55b"
+        }
+      ],
+      "bounds": [
+        [
+          24.7597229478914,
+          92.420046344457
+        ],
+        [
+          24.881228801713732,
+          92.5866425767416
+        ]
+      ]
+    },
+    "ndvi": {
+      "title": "Vegetation (NDVI)",
+      "file": "layer_ndvi.png",
+      "kind": "ramp",
+      "min": -0.1,
+      "max": 0.8,
+      "stops": [
+        "#8a5a2b",
+        "#d8c99b",
+        "#9cc96b",
+        "#2f8f3a",
+        "#0f4d1d"
+      ],
+      "description": "Higher = denser, healthier vegetation",
+      "bounds": [
+        [
+          24.7597229478914,
+          92.420046344457
+        ],
+        [
+          24.881228801713732,
+          92.5866425767416
+        ]
+      ]
+    },
+    "ndbi": {
+      "title": "Built-up index (NDBI)",
+      "file": "layer_ndbi.png",
+      "kind": "ramp",
+      "min": -0.35,
+      "max": 0.2,
+      "stops": [
+        "#f3efe9",
+        "#e7b7a3",
+        "#d06a55",
+        "#9c2a22"
+      ],
+      "description": "Higher = more concrete / impervious",
+      "bounds": [
+        [
+          24.7597229478914,
+          92.420046344457
+        ],
+        [
+          24.881228801713732,
+          92.5866425767416
+        ]
+      ]
+    },
+    "mndwi": {
+      "title": "Water index (MNDWI)",
+      "file": "layer_mndwi.png",
+      "kind": "ramp",
+      "min": -0.6,
+      "max": 0.3,
+      "stops": [
+        "#f2efe6",
+        "#a9c7e3",
+        "#3f7fc7",
+        "#0b3c80"
+      ],
+      "description": "Higher = open water",
+      "bounds": [
+        [
+          24.7597229478914,
+          92.420046344457
+        ],
+        [
+          24.881228801713732,
+          92.5866425767416
+        ]
+      ]
+    },
+    "ndmi": {
+      "title": "Moisture (NDMI)",
+      "file": "layer_ndmi.png",
+      "kind": "ramp",
+      "min": -0.3,
+      "max": 0.4,
+      "stops": [
+        "#a5652a",
+        "#e8d9b5",
+        "#9cc4dd",
+        "#2a6aa8"
+      ],
+      "description": "Higher = wetter vegetation / surfaces",
+      "bounds": [
+        [
+          24.7597229478914,
+          92.420046344457
+        ],
+        [
+          24.881228801713732,
+          92.5866425767416
+        ]
+      ]
+    },
+    "bsi": {
+      "title": "Bare soil index (BSI)",
+      "file": "layer_bsi.png",
+      "kind": "ramp",
+      "min": -0.3,
+      "max": 0.25,
+      "stops": [
+        "#eef2ea",
+        "#d9c39b",
+        "#b8864a",
+        "#7a4a1d"
+      ],
+      "description": "Higher = more exposed soil",
+      "bounds": [
+        [
+          24.7597229478914,
+          92.420046344457
+        ],
+        [
+          24.881228801713732,
+          92.5866425767416
+        ]
+      ]
+    },
+    "ndti": {
+      "title": "Water turbidity (NDTI)",
+      "file": "layer_ndti.png",
+      "kind": "ramp",
+      "min": -0.25,
+      "max": 0.15,
+      "stops": [
+        "#1c5fa8",
+        "#6ea7c9",
+        "#c9b27a",
+        "#8a5a2b"
+      ],
+      "description": "On water only. Higher = muddier, more suspended sediment",
+      "bounds": [
+        [
+          24.7597229478914,
+          92.420046344457
+        ],
+        [
+          24.881228801713732,
+          92.5866425767416
+        ]
+      ]
+    },
+    "ndci": {
+      "title": "Chlorophyll-a proxy (NDCI)",
+      "file": "layer_ndci.png",
+      "kind": "ramp",
+      "min": -0.1,
+      "max": 0.35,
+      "stops": [
+        "#1c5fa8",
+        "#5fb3a8",
+        "#9ccf5a",
+        "#3f8f1c"
+      ],
+      "description": "On water only. Higher = more algae / eutrophication risk",
+      "bounds": [
+        [
+          24.7597229478914,
+          92.420046344457
+        ],
+        [
+          24.881228801713732,
+          92.5866425767416
+        ]
+      ]
+    }
+  },
+  "rasters": {
+    "landcover": "landcover.tif",
+    "indices": "indices.tif",
+    "index_scale": 0.0001,
+    "index_bands": [
+      "ndvi",
+      "ndbi",
+      "mndwi",
+      "bsi",
+      "ndmi",
+      "ndti",
+      "ndci"
+    ]
+  },
+  "runtime_s": 85.1
+}

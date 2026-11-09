@@ -1,0 +1,9 @@
+rasterio>=1.4
+numpy>=1.26
+pyproj>=3.6
+shapely>=2.0
+mgrs>=1.4
+requests>=2.31
+pillow>=10.0
+fastapi>=0.110
+uvicorn>=0.27

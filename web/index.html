@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>City Land Monitor</title>
+<link rel="stylesheet" href="/static/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo" aria-hidden="true"></span>
+    <div>
+      <div class="brand-name">City Land Monitor</div>
+      <div class="brand-sub">Sentinel-2 land cover over time</div>
+    </div>
+  </div>
+  <form id="analyze-form" class="controls">
+    <div class="field city"><label for="city">City or area</label>
+      <div class="search-wrap">
+        <input id="city" type="text" value="Delhi, India" autocomplete="off" required placeholder="Type a city, town or district"
+          role="combobox" aria-autocomplete="list" aria-controls="city-suggest" aria-expanded="false">
+        <div id="city-suggest" class="suggest hidden" role="listbox"></div>
+      </div></div>
+    <div class="field dates-field"><span>Dates to compare</span>
+      <div class="dates" id="dates"></div>
+    </div>
+    <label class="field"><span>Imagery window</span>
+      <select id="window">
+        <option value="15">15 days before</option>
+        <option value="30" selected>30 days before</option>
+        <option value="60">60 days before</option>
+        <option value="90">90 days before</option>
+      </select></label>
+    <label class="field"><span>Pixel</span>
+      <select id="res"><option value="20" selected>20 m</option><option value="10">10 m</option><option value="60">60 m (fast)</option></select></label>
+    <button id="go" type="submit" class="primary">Analyze</button>
+  </form>
+</header>
+
+<div id="progress" class="progress hidden">
+  <div class="bar"><div id="progress-fill"></div></div>
+  <span id="progress-msg">Starting</span>
+</div>
+
+<main class="layout">
+  <aside class="panel">
+    <label class="field saved"><span>Saved analyses</span><select id="saved"></select></label>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="overview">Overview</button>
+      <button class="tab" data-tab="change">Change</button>
+      <button class="tab" data-tab="areas">Localities</button>
+      <button class="tab" data-tab="about">Data &amp; method</button>
+    </nav>
+
+    <section id="tab-overview" class="tabpane active">
+      <div id="empty" class="empty">Enter a city, pick two or more dates and press Analyze, or open a saved analysis.</div>
+      <div id="overview" class="hidden">
+        <h1 id="city-title"></h1>
+        <p id="city-meta" class="muted"></p>
+        <p id="narrative" class="narrative"></p>
+        <div class="tiles" id="tiles"></div>
+        <h2>Land cover composition</h2>
+        <div id="composition" class="stackbar" role="img"></div>
+        <table class="legend-table" id="lc-table"></table>
+        <h2>Water quality</h2>
+        <div id="wq" class="card"></div>
+        <h2>Imagery used</h2>
+        <div id="imagery" class="card small"></div>
+      </div>
+    </section>
+
+    <section id="tab-change" class="tabpane">
+      <div id="change-empty" class="empty">Analyze two or more dates to see change.</div>
+      <div id="change" class="hidden">
+        <h1 id="change-title"></h1>
+        <p id="change-meta" class="muted"></p>
+        <h2>Share of the city over time</h2>
+        <div id="trend-chart" class="chart"></div>
+        <div class="table-scroll"><table class="trend-table" id="trend-table"></table></div>
+        <div class="row pair-row">
+          <label class="field grow"><span>Change between</span><select id="pair"></select></label>
+        </div>
+        <h2>What changed</h2>
+        <p id="pair-summary" class="muted"></p>
+        <div id="transitions"></div>
+        <h2>Localities with the most new built-up land</h2>
+        <table class="zones compact" id="top-built"></table>
+        <h2>Localities with the most greening</h2>
+        <table class="zones compact" id="top-green"></table>
+      </div>
+    </section>
+
+    <section id="tab-areas" class="tabpane">
+      <div class="search-wrap">
+        <input id="loc-search" class="filter" type="search" placeholder="Search a locality: Rohini, Saket, Badarpur…" autocomplete="off"
+          role="combobox" aria-autocomplete="list" aria-controls="loc-suggest" aria-expanded="false">
+        <div id="loc-suggest" class="suggest hidden"></div>
+      </div>
+      <div class="row">
+        <label class="field grow"><span>Sections</span><select id="zone-set"></select></label>
+        <label class="field grow"><span>Sort &amp; colour by</span>
+          <select id="zone-metric">
+            <optgroup label="At the date on the slider">
+              <option value="pct_built">Built-up %</option>
+              <option value="pct_green">Green cover %</option>
+              <option value="pct_dense_veg">Tree cover %</option>
+              <option value="pct_bare">Bare soil %</option>
+              <option value="pct_water">Water %</option>
+              <option value="mean_ndvi">Mean NDVI</option>
+            </optgroup>
+            <optgroup label="Change between the selected dates">
+              <option value="d_pct_built" selected>Change in built-up (pts)</option>
+              <option value="d_pct_green">Change in green cover (pts)</option>
+              <option value="d_pct_bare">Change in bare soil (pts)</option>
+              <option value="d_mean_ndvi">Change in NDVI</option>
+              <option value="t_veg_to_built">Vegetation to built-up (km²)</option>
+              <option value="t_to_veg">Greening (km²)</option>
+            </optgroup>
+          </select></label>
+      </div>
+      <div id="zone-detail" class="card hidden"></div>
+      <table class="zones" id="zone-table"><thead></thead><tbody></tbody></table>
+    </section>
+
+    <section id="tab-about" class="tabpane">
+      <div id="about"></div>
+    </section>
+  </aside>
+
+  <section class="mapwrap">
+    <div id="map"></div>
+    <div class="map-search search-wrap" id="map-search-wrap">
+      <input id="map-search" type="search" placeholder="Search a locality in this city and press Enter" autocomplete="off"
+        role="combobox" aria-autocomplete="list" aria-controls="map-suggest" aria-expanded="false" aria-label="Search a locality on the map">
+      <div id="map-suggest" class="suggest hidden" role="listbox"></div>
+    </div>
+    <details class="map-panel" id="layer-panel" open>
+      <summary class="mp-title">Map layer</summary>
+      <div id="layer-list"></div>
+      <label class="slider">Opacity <input id="opacity" type="range" min="0" max="100" value="85"></label>
+      <label class="check"><input type="checkbox" id="show-zones" checked> Section outlines</label>
+      <label class="check"><input type="checkbox" id="zone-choro"> Shade sections by metric</label>
+      <div id="legend" class="legend"></div>
+      <div id="zone-legend" class="legend"></div>
+    </details>
+    <div class="timeline hidden" id="timeline">
+      <button id="play" class="play" type="button" aria-label="Play through dates">▶</button>
+      <div class="tl-main">
+        <div class="tl-label" id="tl-label"></div>
+        <input id="tl" type="range" min="0" max="1" step="0.01" value="0" aria-label="Date">
+        <div class="tl-ticks" id="tl-ticks"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="tooltip" class="tooltip hidden"></div>
+<script src="/static/vendor/leaflet/leaflet.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>
